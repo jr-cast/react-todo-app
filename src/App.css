@@ -43,7 +43,26 @@
 }
 
 .todoCont {
+  padding: 3em;
   border: 2px solid goldenrod;
   width: 50%;
   height: 50vh;
 }
+
+.task {
+  width: 80%;
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inner {
+  padding: 1em;
+}
+
+.inner h1,
+.inner p {
+  margin: 0%;
+}
+

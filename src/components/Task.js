@@ -1,8 +1,14 @@
-const Task = () => {
+import { FaTimes } from "react-icons/fa"
+
+const Task = ({ task, date }) => {
   return (
     <div className="task">
-      <h1>Task 1</h1>
-      <p>Friday 10pm</p>
+      <input type="checkbox" />
+      <div className="inner">
+        <h1>{task}</h1>
+        <p className="date">{date}</p>
+      </div>
+      <FaTimes size={28} />
     </div>
   )
 }

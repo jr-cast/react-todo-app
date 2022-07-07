@@ -6,9 +6,11 @@ function App() {
   return (
     <div className="App">
       <div className="todoCont">
-        <Task />
-        <Task />
-        <Task />
+        <input type="text" />
+        <button>Add task</button>
+        <Task task="Do Laudry" date="Monday 7pm" />
+        {/* <Task task="Do Laudry" date="Monday 7pm" />
+        <Task task="Do Laudry" date="Monday 7pm" /> */}
       </div>
     </div>
   );

@@ -45,14 +45,14 @@
 .todoCont {
   padding: 3em;
   border: 2px solid goldenrod;
-  width: 50%;
+  width: 30%;
   height: 50vh;
 }
 
 .task {
-  width: 80%;
+  width: 100%;
   display: flex;
-  border: 2px solid black;
+  border: 1px solid black;
   justify-content: space-around;
   align-items: center;
 }
@@ -66,3 +66,7 @@
   margin: 0%;
 }
 
+.header {
+  border: 1px solid black;
+  width: 100%;
+}

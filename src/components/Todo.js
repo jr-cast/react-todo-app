@@ -1,16 +1,15 @@
 import { FaTimes } from "react-icons/fa"
 
-const Task = ({ task, date }) => {
+const Todo = ({ task }) => {
   return (
     <div className="task">
       <input type="checkbox" />
       <div className="inner">
-        <h1>{task}</h1>
-        <p className="date">{date}</p>
+        <h2>{task}</h2>
       </div>
       <FaTimes size={28} />
     </div>
   )
 }
 
-export default Task;
+export default Todo;

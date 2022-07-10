@@ -46,7 +46,7 @@
   padding: 3em;
   border: 2px solid goldenrod;
   width: 30%;
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .task {
@@ -69,4 +69,12 @@
 .header {
   border: 1px solid black;
   width: 100%;
+}
+
+.reminder {
+  border-left: 10px purple solid;
+}
+
+.closeBtn {
+  cursor: pointer;
 }
